@@ -1,4 +1,4 @@
-# Trabalho de engenharia de software
+# Trabalho de engenharia de software - Notable
 Esse repositório consiste no desenvolvimento de um trabalho para a disciplina Engenharia de Software, ofertada pelo DCC-UFMG.
 
 ## Escopo do sistema
