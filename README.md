@@ -10,6 +10,29 @@ O sistema consite em uma aplicação de bloco de notas, em que cada usuário pod
 - Visualizar uma nota individual, em detalhes
 - Favoritar notas
 
+## Backlog
+- [ ] **Tarefas de configuração inicial**
+	- [ ] Criar projeto React e configurar contexto
+	- [ ] Configurar projeto no Firebase
+
+- [ ] **Eu, como usuário, quero acessar um ambiente exclusivamente meu**
+	- [ ] Criar página de login, conectada ao Firebase
+	- [ ] Criar página de cadastro, conectada ao Firebase
+	- [ ] Configurar autenticação através do Firebase
+	- [ ] Configurar contexto de autenticação na aplicação
+
+- [ ] **Eu, como usuário, quero conseguir criar e visualizar notas**
+	- [ ] Criar, no banco de dados, a entidade "nota"
+	- [ ] Criar página de criação de notas, com ligação ao banco de dados através do Firebase
+	- [ ] Criar página de listar notas, puxando do banco de dados
+	- [ ] Criar página de visualizar uma nota individualmente
+
+- [ ] **Eu, como usuário, quero conseguir favoritar notas**
+	- [ ] Criar fluxo de favoritar nota
+	- [ ] Modificar componente de nota para exibir que é favorita
+	- [ ] Criar seção de notas favoritas
+
+
 ## Time de desenvolvimento
 O sistema será desenvolvido pelo seguinte time, com os seguintes papeis:
 
