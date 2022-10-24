@@ -11,15 +11,15 @@ O sistema consite em uma aplicação de bloco de notas, em que cada usuário pod
 - Favoritar notas
 
 ## Backlog
-- [ ] **Tarefas de configuração inicial**
-	- [ ] Criar projeto React e configurar contexto
-	- [ ] Configurar projeto no Firebase
+- [x] **Tarefas de configuração inicial**
+	- [x] Criar projeto React e configurar contexto
+	- [x] Configurar projeto no Firebase
 
-- [ ] **Eu, como usuário, quero acessar um ambiente exclusivamente meu**
-	- [ ] Criar página de login, conectada ao Firebase
-	- [ ] Criar página de cadastro, conectada ao Firebase
-	- [ ] Configurar autenticação através do Firebase
-	- [ ] Configurar contexto de autenticação na aplicação
+- [x] **Eu, como usuário, quero acessar um ambiente exclusivamente meu**
+	- [x] Criar página de login, conectada ao Firebase
+	- [x] Criar página de cadastro, conectada ao Firebase
+	- [x] Configurar autenticação através do Firebase
+	- [x] Configurar contexto de autenticação na aplicação
 
 - [ ] **Eu, como usuário, quero conseguir criar e visualizar notas**
 	- [ ] Criar, no banco de dados, a entidade "nota"
