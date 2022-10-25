@@ -1,6 +1,8 @@
 # Trabalho de engenharia de software - Notable
 Esse repositório consiste no desenvolvimento de um trabalho para a disciplina Engenharia de Software, ofertada pelo DCC-UFMG.
 
+Projeto final disponível nesse [link](https://notable-60ca1.firebaseapp.com/)
+
 ## Escopo do sistema
 O sistema consite em uma aplicação de bloco de notas, em que cada usuário pode criar diversas notas, ver e organizar as notas já criadas. O sistema é concebido para ser utilizado pelo navegador, o que o torna utilizável em diversas plataformas. Em sua primeira versão, o sistema conta com as seguintes *features*:
 
