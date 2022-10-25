@@ -4,6 +4,7 @@ import { ChakraProvider } from '@chakra-ui/react'
 import LoginPage from "./pages/LoginPage";
 import Dashboard from "./pages/Dashboard";
 
+
 function App() {
 
   return (
