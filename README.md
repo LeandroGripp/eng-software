@@ -1,50 +1,70 @@
-# Trabalho de engenharia de software - Notable
-Esse repositório consiste no desenvolvimento de um trabalho para a disciplina Engenharia de Software, ofertada pelo DCC-UFMG.
+# Getting Started with Create React App
 
-## Escopo do sistema
-O sistema consite em uma aplicação de bloco de notas, em que cada usuário pode criar diversas notas, ver e organizar as notas já criadas. O sistema é concebido para ser utilizado pelo navegador, o que o torna utilizável em diversas plataformas. Em sua primeira versão, o sistema conta com as seguintes *features*:
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-- Autenticação de usuários e apresentação da informação referente a esse usuário
-- Escrever notas
-- Visualizar todas as notas, com *preview*
-- Visualizar uma nota individual, em detalhes
-- Favoritar notas
+## Available Scripts
 
-## Backlog
-- [x] **Tarefas de configuração inicial**
-	- [x] Criar projeto React e configurar contexto
-	- [x] Configurar projeto no Firebase
+In the project directory, you can run:
 
-- [x] **Eu, como usuário, quero acessar um ambiente exclusivamente meu**
-	- [x] Criar página de login, conectada ao Firebase
-	- [x] Criar página de cadastro, conectada ao Firebase
-	- [x] Configurar autenticação através do Firebase
-	- [x] Configurar contexto de autenticação na aplicação
+### `yarn start`
 
-- [x] **Eu, como usuário, quero conseguir criar e visualizar notas**
-	- [x] Criar, no banco de dados, a entidade "nota"
-	- [x] Criar página de criação de notas, com ligação ao banco de dados através do Firebase
-	- [x] Criar página de listar notas, puxando do banco de dados
-	- [x] Criar página de visualizar uma nota individualmente
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-- [ ] **Eu, como usuário, quero conseguir favoritar notas**
-	- [ ] Criar fluxo de favoritar nota
-	- [ ] Modificar componente de nota para exibir que é favorita
-	- [ ] Criar seção de notas favoritas
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
+### `yarn test`
 
-## Time de desenvolvimento
-O sistema será desenvolvido pelo seguinte time, com os seguintes papeis:
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-- Álvaro Araújo - backend
-- Arthur Comarelli - frontend
-- Gabriel Andrade - fullstack
-- Leandro Gripp - fullstack
+### `yarn build`
 
-## Tecnologias
-As tecnologias utilizadas serão:
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-- React para desenvolvimento frontend
-- Express.js para desenvolvimento da API
-- Firebase para gestão de autenticação e de banco de dados
-  - O banco de dados será não relacional, utilizando o Firestore
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `yarn eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `yarn build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

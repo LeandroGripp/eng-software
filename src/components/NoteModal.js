@@ -24,6 +24,9 @@ export default function NoteModal({ noteContent, isOpen, onClose, onSubmit }) {
     console.log(title, content)
   }, [title, content])
 
+  // console.log(noteContent);
+  // console.log(onSubmit);
+
   async function submitHandler() {
     try {
       await onSubmit({ isFavorite: false, ...noteContent, title, content });
