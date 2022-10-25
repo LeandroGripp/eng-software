@@ -11,7 +11,6 @@ export default function LoginPage() {
   const navigate = useNavigate();
 
   useEffect(() => {
-    // A página dashboard será criada em breve
     if (user) navigate("/dashboard");
   }, [user, navigate]);
 
